@@ -12,7 +12,7 @@ global.blockJids = process.env.BLOCK_JID ||'120363023983262391@g.us' ;
 global.allowJids = process.env.ALLOW_JID ||'120363022922797633@g.us' ;
 global.email = 'botwhatsapp204@gmail.com' ;
 global.location = 'Rathnapura SriLanka' ;
-global.timezone  = process.env.TIME_ZONE || 'Asia/Colombo'
+global.timezone  = process.env.TIME_ZONE || 'Asia/Indonesia'
 global.gurl = 'https://youtube.com/@gamingewingyt6216' ; // add your username
 global.sudo =  process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : '62895360006171'; ;
 global.devs = "923184474176"; //Dont change it From here
@@ -27,7 +27,7 @@ module.exports = {
   ownername:  process.env.OWNER_NAME || `Hanz`,
   author:  process.env.PACK_AUTHER || '',
   autovoice: process.env.AUTO_VOICE || 'true',
-  errorChat : process.env.ERROR_CHAT|| '', // put 'chat' here to send error in chat ,where it accures
+  errorChat : process.env.ERROR_CHAT|| 'wait,i think something missing...', // put 'chat' here to send error in chat ,where it accures
   read_status : process.env.AUTO_READ_STATUS || 'false',
   save_status : process.env.AUTO_SAVE_STATUS || 'false',
   packname:  process.env.PACK_NAME || "\t   𓅋 vajira 𓃮 \n\nᴋɪss ʍᴇ...💋\n\nᴄʟօsᴇ ყσυɾ ᴇყᴇs...👁️🙈\n\nʍɪss ʍᴇ...♥️\n\n\n   -ᴘʟᴇᴀsᴇ ᴅᴏɴ'ᴛ ᴛᴀᴋᴇ 🚮 \n\n--- ρυвʟɪᴄ вσт нᴇʀᴇ ---" ,
@@ -35,8 +35,8 @@ module.exports = {
   antibadword : process.env.ANTI_BAD_WORD || 'nobadwordokeyuntillYouPutAnWordHere',
   alwaysonline: process.env.WAPRESENCE || '', // 'unavailable' | 'available' | 'composing' | 'recording' | 'paused'
   antifake : 'null', // process.env.FAKE_COUNTRY_CODE ||'94',
-  readmessage: process.env.READ_MESSAGE || 'false',   //  | 'false' | 'true' | 
-  readcmds : process.env.READ_COMMANDS || 'false',    //  | 'false' | 'true' | 
+  readmessage: process.env.READ_MESSAGE || 'true',   //  | 'false' | 'true' | 
+  readcmds : process.env.READ_COMMANDS || 'true',    //  | 'false' | 'true' | 
   HANDLERS: process.env.PREFIX || ',',
   warncount : process.env.WARN_COUNT || 3,
   disablepm: process.env.DISABLE_PM || "false",   
